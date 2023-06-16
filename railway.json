@@ -3,9 +3,8 @@ name: MyBot
 env: python3.8
 build:
   builder: NIXPACKS
-  nixpkgs: ffmpeg
 deploy:
   numReplicas: 1
-  startCommand: python3 bot.py
+  startCommand: /app/bin/ffmpeg -i bot.py
   restartPolicyType: ON_FAILURE
   restartPolicyMaxRetries: 10
