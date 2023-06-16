@@ -85,7 +85,7 @@ def ds_process_audio(audio_file, file_handle):
         write_to_file(file_handle, infered_text, line_count, limits)
 
 
-@Bot.on_message(filters.private & (filters.video | filters.document | filters.audio | filters.voice) & ~filters.edited, group=-1)
+@Bot.on_message(filters.private & (filters.video | filters.document | filters.audio | filters.voice), group=-1)
 async def speech2srt(bot, m):
     global line_count
     if m.document and not m.document.mime_type.startswith("video/"):
