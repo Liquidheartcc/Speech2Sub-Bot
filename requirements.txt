@@ -1,7 +1,9 @@
-pyrogram
+pyrogram==1.2.6
 tgcrypto
 numpy
 pydub
+ffmpeg
+ffmpeg-python
 scikit-learn
 scipy
 tqdm
