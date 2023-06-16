@@ -11,7 +11,7 @@
     },
     "LANG_CODE": {
       "description": "Add the code of the language which be spoken in your medias. (List of language codes: https://telegra.ph/List-of-BCP-47-language-codes-09-25-2)",
-      "value": "en-EN"
+      "value": "ja-JP"
     },
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
